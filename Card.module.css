@@ -1,0 +1,18 @@
+.cardBox {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.cardBox:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.priceTag {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #198754;
+}
